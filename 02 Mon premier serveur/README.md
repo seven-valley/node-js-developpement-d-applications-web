@@ -59,7 +59,8 @@ npm i
 ```
 npm install
 ```
-pensez canard !  
+pensez canard ! :baby_chick::baby_chick::baby_chick:
+[les canards arrivent ...](https://x.com/garrows/status/1065217184643768320) 
 ## Préparer son porjet pour Github avec Git
 ```
 git init
@@ -82,9 +83,9 @@ on viens préciser de ne pas uploader le répertoires
 <code>./node_modules/</code>
 car il peut être reconstruit avec <code>npm install</code>
   
-constenu du fichier .gitignore :
+contenu du fichier .gitignore :
 ```
-node_modules
+backend/node_modules
 ```
 
 ## Mon premier serveur
