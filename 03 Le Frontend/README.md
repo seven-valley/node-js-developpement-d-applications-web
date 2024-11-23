@@ -1,5 +1,5 @@
 # 03 - Préparez le "front"
-<img src="../img/front.jpg" width="250">  
+<img src="../img/front.webp" width="250">  
 
    
 ```
@@ -74,3 +74,5 @@ Lancez le front
 npm run start
 ```
 http://localhost:4200
+
+<img src="../img/front2.webp" width="500">  

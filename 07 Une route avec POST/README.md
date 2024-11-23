@@ -1,5 +1,6 @@
 # Une route avec POST
-implémenter une route POST  
+<img src="../img/front2.webp" width="500"> 
+Implémenter une route POST  
 Ou comment des données entrantes peuvent être capturée ?
 
 
