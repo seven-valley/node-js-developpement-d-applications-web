@@ -86,6 +86,7 @@ car il peut être reconstruit avec <code>npm install</code>
 contenu du fichier .gitignore :
 ```
 backend/node_modules
+frontend/node_modules
 ```
 
 ## Mon premier serveur
