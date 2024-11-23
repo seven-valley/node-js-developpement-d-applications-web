@@ -1,4 +1,14 @@
 # 03 Le Framework express
+```
+|-- projets-node
+        |-- projet-2
+            |-- .gitignore
+            |-- backend
+                |-- node_modules
+                |-- package.json
+                |-- serveur.js
+                |-- app.js
+```
 ![express](../img/express.webp)
 https://www.npmjs.com/package/http-server
 

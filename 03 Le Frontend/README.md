@@ -1,3 +1,15 @@
+# 03 - Préparez le front
+Nous allons installer http-server pour lancer le "front" sur un serveur HTTP
+```
+|-- projets-node
+        |-- projet-3
+            |-- .gitignore
+            |-- frontend
+                |-- node_modules
+                |-- package.json
+                |-- index.html
+```
+
 ```
 npm init
 ```

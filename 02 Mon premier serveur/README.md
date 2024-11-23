@@ -2,7 +2,6 @@
 ```
 |-- projets-node
         |-- projet-1
-            |-- frontend
             |-- backend
 ```
 ## Ouvrir VS CODE
@@ -10,7 +9,7 @@ File > Open Folder
  ```
  c:\projets-node\projet-1\
  ```
- Ou Tapez <code>code .</code> dans le répertoire <code>projet1</code>
+ Ou Tapez <code>code .</code> dans le répertoire <code>projet-1</code>
  ```
  code .
  ```
@@ -30,8 +29,15 @@ c'est  le entry point en **server.js**
 On a bien un fichier **package.json**
 qui contiendra des informations sur tous les packages et
 tous les outils que l'on va intégrer à notre projet node
-
+```
+|-- projets-node
+        |-- projet-1
+            |-- backend
+                |-- package.json
+```
 ## Installez les packages depuis package.json
+Pour l'instant nous n'avons pas de package
+Mais par la suite pour installer les package
 ```
 npm i
 ```
@@ -48,6 +54,13 @@ git init
 It stores an exact, versioned dependency tree rather than using starred versioning like package.json
 
 ## le fichier .gitignore
+```
+|-- projets-node
+        |-- projet-1
+            |-- backend
+                |-- package.json
+                |-- .gitignore
+```
 création du fichier **.gitignore**
 on viens préciser de ne pas uploader le répertoires
 <code>./node_modules/</code>
@@ -59,6 +72,14 @@ node_modules
 ```
 
 ## Mon premier serveur
+```
+|-- projets-node
+        |-- projet-1
+        |-- .gitignore
+            |-- backend
+                |-- package.json
+                |-- serveur.js
+```
 objectif :
 - Ecouter des requêtes HTTP
 - Réponrde au requêtes HTTP

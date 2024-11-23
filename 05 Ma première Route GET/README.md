@@ -1,7 +1,13 @@
 # Ma première route GET
 Mais qui est Brad ?
-![brad](../brad.webp)
-
+<img src="../img/brad.webp" width="150">
+```
+|-- projets-node
+        |-- projet-3
+            |-- .gitignore
+            |-- frontend
+            |-- backend
+```
 1 - <code>app.use()</code>
 La méthode app.use() permet d'attribuer un middleware à une route spécifique de votre application.
 
