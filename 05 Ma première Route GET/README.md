@@ -20,7 +20,7 @@ app.use((req, res, next) => {
   next();
 });
 ```
-
+Nous allons afficher un JSON en retour.
 **app.js**
 ```js
 // url : http://localhost:3000/api/brad

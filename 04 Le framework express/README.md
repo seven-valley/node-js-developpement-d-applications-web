@@ -46,7 +46,7 @@ server.listen(process.env.PORT || 3000);
 erreur 404 ?
 
 
-## Psrise en main de next
+## Prise en main de next
 La fonction <code>next</code> permet de renvoyer
 qui permet à chaque middleware de  renvoyer l'exécution au middleware suivant
 
