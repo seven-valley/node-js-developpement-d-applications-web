@@ -19,7 +19,7 @@ point d'entré index.html
 npm i http-server
 ```
 
-Ajouter au json
+Ajouter __**manuellement**__ au json
 ```json
 {
     "scripts": {
