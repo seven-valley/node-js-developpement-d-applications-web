@@ -35,6 +35,20 @@ tous les outils que l'on va intégrer à notre projet node
             |-- backend
                 |-- package.json
 ```
+Contenu du fichier **package.json** :
+```json
+{
+  "name": "projet-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+```
 ## Installez les packages depuis package.json
 Pour l'instant nous n'avons pas de package
 Mais par la suite pour installer les package
@@ -128,6 +142,32 @@ npm i -g nodemon
 ```
 Maintenat au lieu d'utiliser <code>node server</code> pour démarrer votre serveur, vous pouvez utiliser <code>nodemon server</code>
 
+Pour lancer le serveur :
 ```
 nodemon server
+```
+Nouveau contenu du fichier **package.json** :
+```json
+{
+  "name": "projet-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
+```
+Cette ligne est venue s'ajoutée.
+```json
+{
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
 ```
