@@ -1,7 +1,7 @@
 
 # Formation 
 ## Node.js - Développement d'applications Web
-<img src="./img/node.svg" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./img/mongo.svg" width="250">   
+<img src="./img/node.svg" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./img/mongo.svg" width="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./img/express.svg" width="250">   
 
 ## Plan de la formation
 
