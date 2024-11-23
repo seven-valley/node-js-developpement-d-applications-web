@@ -55,7 +55,7 @@ Mais par la suite pour installer les package
 ```
 npm i
 ```
-
+**OU**
 ```
 npm install
 ```
@@ -128,7 +128,7 @@ node server
 ```
 
 ## Installez nodemon
-<img src="../img/nodemon.webp" width="150">
+<img src="../img/nodemon.webp" width="50">
 https://www.npmjs.com/package/nodemon  
   
 Pour évitez d'arrêter et relancer le serveur,  
