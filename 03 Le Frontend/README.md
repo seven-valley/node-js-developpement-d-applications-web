@@ -1,6 +1,6 @@
 # 03 - Préparez le "front"
 <img src="../img/front.jpg" width="250">  
-Nous allons installer http-server pour lancer le "front" sur un serveur HTTP
+
    
 ```
 |-- projets-node
@@ -17,6 +17,7 @@ npm init
 ```
 point d'entré index.html
 ## Installation du package http-server
+Nous allons installer **http-server** pour lancer le "front" sur un serveur **HTTP**
 <img src="../img/express.svg" width="150">  
 https://www.npmjs.com/package/http-server
 ```
