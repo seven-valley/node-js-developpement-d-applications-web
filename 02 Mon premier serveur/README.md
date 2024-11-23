@@ -54,12 +54,14 @@ git init
 It stores an exact, versioned dependency tree rather than using starred versioning like package.json
 
 ## le fichier .gitignore
+Nous allon créez à la racine le <code>.gitgnore</code>  
+Afin d'éviter d'uploader sur github le répertoire node_modules (les canards) :baby_chick:
 ```
 |-- projets-node
+        |-- .gitignore
         |-- projet-1
             |-- backend
                 |-- package.json
-                |-- .gitignore
 ```
 création du fichier **.gitignore**
 on viens préciser de ne pas uploader le répertoires
@@ -74,8 +76,8 @@ node_modules
 ## Mon premier serveur
 ```
 |-- projets-node
-        |-- projet-1
         |-- .gitignore
+        |-- projet-1
             |-- backend
                 |-- package.json
                 |-- serveur.js
@@ -111,15 +113,16 @@ node server
 ```
 
 ## Installez nodemon
-![nodedemon](../img/nodemon.webp)
-https://www.npmjs.com/package/nodemon
+<img src="../img/nodemon.webp" width="150">
+https://www.npmjs.com/package/nodemon  
+  
 Pour évitez d'arrêter et relancer le serveur,  
 dès que l'on fait une modification
 Nous allons utilser **nodemon**
 ```
 npm install -g nodemon
 ```
-**OU**
+**OU** pour les intimes :
 ```
 npm i -g nodemon
 ```
