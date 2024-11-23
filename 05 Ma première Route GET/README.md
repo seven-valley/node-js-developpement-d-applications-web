@@ -1,6 +1,6 @@
 # Ma première route GET
-Mais qui est Brad ?
-<img src="../img/brad.webp" width="150">
+Mais qui est Brad ?  
+<img src="../img/brad.webp" width="80">
 ```
 |-- projets-node
         |-- projet-3
