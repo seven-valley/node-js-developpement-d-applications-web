@@ -1,4 +1,5 @@
 # 03 Le Framework express
+<img src="./img/express.svg" width="150">   
 ```
 |-- projets-node
         |-- projet-2
@@ -9,18 +10,19 @@
                 |-- serveur.js
                 |-- app.js
 ```
-![express](../img/express.webp)
-https://www.npmjs.com/package/http-server
+
+
+
+## Installez Express
+```
+npm install express
+```
 
 ## Prise ne mains des middleware
 **middleware** :  
 Des fonctions  qui capture et traite les requêtes envoyer vers le serveur  
 Permettant de controller comment notre serveur réagit à chaque type de requêtes  
 
-## Installez Express
-```
-npm install express
-```
 
 Création du fichier app.js
 **app.js**
@@ -53,7 +55,7 @@ const server = http.createServer(app);
 server.listen(process.env.PORT || 3000);
 ```
 
-erreur 404 ?
+
 
 
 ## Prise en main de next

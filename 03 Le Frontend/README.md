@@ -15,6 +15,8 @@ npm init
 ```
 point d'entré index.html
 ## Installation du package http-server
+![express](../img/express.webp)
+https://www.npmjs.com/package/http-server
 ```
 npm i http-server
 ```
