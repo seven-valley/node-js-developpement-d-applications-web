@@ -14,6 +14,7 @@ Nous allons installer http-server pour lancer le "front" sur un serveur HTTP
 npm init
 ```
 point d'entré index.html
+## Installation du package http-server
 ```
 npm i http-server
 ```
