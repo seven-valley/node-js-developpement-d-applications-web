@@ -1,5 +1,5 @@
 # Une route avec POST
-<img src="../img/front2.webp" width="500"> 
+<img src="../img/postman.webp" width="200"> 
 Implémenter une route POST  
 Ou comment des données entrantes peuvent être capturée ?
 
