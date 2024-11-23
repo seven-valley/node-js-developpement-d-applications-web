@@ -8,6 +8,31 @@ Mais qui est Brad ?
             |-- frontend
             |-- backend
 ```
+
+**Le frontend** :
+```
+|-- projets-node
+        |-- projet-3
+            |-- .gitignore
+            |-- frontend
+                |-- node_modules
+                |-- package.json
+                |-- index.html
+            |-- backend
+
+```
+**Le backend** :
+```
+|-- projets-node
+        |-- projet-3
+            |-- .gitignore
+            |-- frontend
+            |-- backend
+                |-- node_modules
+                |-- package.json
+                |-- serveur.js
+                |-- app.js
+```
 1 - <code>app.use()</code>
 La méthode app.use() permet d'attribuer un middleware à une route spécifique de votre application.
 
@@ -43,7 +68,7 @@ app.use('/api/brad', (req, res, next) => {
 });
 ```
 
-CORS signifie « Cross Origin Resource Sharing ». Il s'agit d'un système de sécurité qui, par défaut, bloque les appels HTTP entre des serveurs différents, ce qui empêche donc les requêtes malveillantes d'accéder à des ressources sensibles. Dans notre cas, nous avons deux origines : <code>localhost:3000</code> et <code>localhost:5000</code> , et nous souhaiterions qu'elles puissent communiquer entre elles. Pour cela, nous devons ajouter des headers à notre objet  response .
+**CORS** signifie « Cross Origin Resource Sharing ». Il s'agit d'un système de sécurité qui, par défaut, bloque les appels HTTP entre des serveurs différents, ce qui empêche donc les requêtes malveillantes d'accéder à des ressources sensibles. Dans notre cas, nous avons deux origines : <code>localhost:3000</code> et <code>localhost:5000</code> , et nous souhaiterions qu'elles puissent communiquer entre elles. Pour cela, nous devons ajouter des headers à notre objet  response .
 
 
 ## Le fichier app.js complet
