@@ -21,10 +21,10 @@ npm i http-server
 
 Ajouter __**manuellement**__ au json
 ```json
-{
+
     "scripts": {
         "start": "npx http-server . -p 4200 -P \"http://localhost:4200?\"" 
-}
+    }
 ```
 **ici** :
 
