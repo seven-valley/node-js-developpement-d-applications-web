@@ -1,3 +1,3 @@
 
 
-<img src="node.svg" width="200">
+<img src="./img/node.svg" width="200">
