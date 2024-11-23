@@ -1,4 +1,5 @@
 # 02 - Mon premier serveur
+<img src="https://cdn.pixabay.com/photo/2023/04/29/07/54/ai-generated-7957989_1280.jpg" width="100">
 ```
 |-- projets-node
         |-- projet-1
