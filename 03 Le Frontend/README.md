@@ -1,0 +1,56 @@
+```
+npm init
+```
+point d'entré index.html
+```
+npm i http-server
+```
+
+Ajouter au json
+```json
+{
+    "scripts": {
+        "start": "npx http-server . -p 4200 -P \"http://localhost:4200?\"" 
+}
+```
+**ici** :
+
+```json
+{
+    "name": "go-fullstack-v3-fr",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "start": "npx http-server . -p 4200 -P \"http://localhost:4200?\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "http-server": "^14.1.1"
+    }
+}
+```
+**index.html**
+```html
+<button onclick="qui()">
+    Qui est Brad
+</button>
+<h1></h1>
+<img width="80">
+<script>
+    async function qui(){
+        const r = await fetch('http://localhost:3000/api/brad');
+        const data = await r.json();
+        console.log(data);
+        document.querySelector('h1').innerHTML =data.title;
+        document.querySelector('img').setAttribute('src',data.imageUrl);
+    }
+</script>
+```
+
+Lancez le front
+```
+npm run start
+```
+http://localhost:4200
