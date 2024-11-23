@@ -17,8 +17,8 @@ npm init
 ```
 point d'entré index.html
 ## Installation du package http-server
-<img src="../img/express.svg" width="250">   
- 
+<img src="../img/express.webp" width="150">   
+
 Nous allons installer **http-server** pour lancer le "front" sur un serveur **HTTP**
 
 https://www.npmjs.com/package/http-server
