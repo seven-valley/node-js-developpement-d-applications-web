@@ -1,4 +1,4 @@
-# 03 - Préparez le front
+# 03 - Préparez le __"front"__
 <img src="../img/front.jpg" width="250">  
 Nous allons installer http-server pour lancer le "front" sur un serveur HTTP
 ```
