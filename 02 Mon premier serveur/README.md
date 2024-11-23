@@ -5,6 +5,15 @@
             |-- frontend
             |-- backend
 ```
+## Ouvrir VS CODE
+File > Open Folder
+ ```
+ c:\projets-node\projet-1\
+ ```
+ Ou Tapez <code>code .</code> dans le répertoire <code>projet1</code>
+ ```
+ code .
+ ```
 ##  Initialiser le projet
 Dans le dossier **back-end**  
 Je vais donc naviguez dans le dossier back-end
