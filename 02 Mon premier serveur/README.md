@@ -1,10 +1,10 @@
 # 02 - Mon premier serveur
-
+```
 |-- projets-node
         |-- projet-1
             |-- frontend
             |-- backend
-
+```
 ##  Initialiser le projet
 Dans le dossier **back-end**  
 Je vais donc naviguez dans le dossier back-end
