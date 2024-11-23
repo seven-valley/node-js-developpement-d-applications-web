@@ -17,7 +17,7 @@ File > Open Folder
 Dans le dossier **back-end**  
 Je vais donc naviguez dans le dossier back-end
 ```
-cd back-end
+cd backend
 ```
 Je vais initialiser un nouveau projet node  
 ```
@@ -100,7 +100,7 @@ frontend/node_modules
 ```
 objectif :
 - Ecouter des requêtes HTTP
-- Réponrde au requêtes HTTP
+- Répondre au requêtes HTTP
 
 Nous allons créer le fichier <code>serveur.js</code>
 ```js
