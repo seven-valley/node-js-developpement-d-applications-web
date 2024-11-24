@@ -69,4 +69,4 @@ $\color{blue}{\text{Projet 6 MongoDB}}$
 - Création d'une route PATCH pour modifier un enregistrement 
 - Création d'une route PUT pour modifier un enregistrement 
 - Création d'une route DELETE pour supprimer un enregistrement 
-- $\color{green}{\text{TP VIP Cocktail}}$ [Live preview](https://sevenvalley.fr/tp-javascript/tpa/)
+- $\color{green}{\text{TP VIP Cocktail}}$ [Live preview](https://sevenvalley.fr/tp-javascript/tp6/)
