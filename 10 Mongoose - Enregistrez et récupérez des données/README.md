@@ -39,8 +39,9 @@ Cel apermet d'avoir un code plus robuste.
                 |-- models
                     |-- Film.js
 ```
-Création du répertoire <code>models</code> 
+Création du répertoire <code>models</code>   
 Création du fichier <code>Film.js</code>  
+    
 **Films.js**
 ```js
 const mongoose = require('mongoose');
