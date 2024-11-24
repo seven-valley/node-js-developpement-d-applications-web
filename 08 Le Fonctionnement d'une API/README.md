@@ -4,16 +4,16 @@
 
 ## LE CRUD de l'API
 
- <summary><code>POST</code> <code><b>/</b></code> <code>(overwrites all in-memory stub and/or proxy-config)</code></summary>
-<summary><code>GET</code> <code><b>/{uuid}</b></code> <code>(gets stub by its defined uuid property)</code></summary>
+<code>POST</code> <code>a<b>/api/film</b></code> <code>(overwrites all in-memory stub and/or proxy-config)</code>
+
 ## Notre bac à sable avec Firebase
 https://firebase.google.com/ 
-<img src="./img/firebase.svg" width="200">   
+<img src="../img/firebase.svg" width="200">   
 Voir pdf 08
 
 ## POSTMAN
 https://www.postman.com/
-<img src="./img/postman.svg" width="200">  
+<img src="../img/postman.svg" width="200">  
 
 ## comment créer une documentation à notre API ?
 
