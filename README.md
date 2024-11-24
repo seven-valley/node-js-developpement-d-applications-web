@@ -15,17 +15,17 @@
 - Installation du package **nodemon**
 - Lancer le serveur et tester
 
-### 03 - Le Frontend
-- Création d'un projet node
-- Installer le package **http-server**
-- Modifier le fichier package.json pour lancer le serveur HTTP
-- lancer le projet en localhost:4200
-
-### 04 - Mise en place du Framework Express
+### 03 - Mise en place du Framework Express
 - Création d'un fichier **app.js**
 - Création d'un middleware avec **next()**
 - Création de headers pour empêcher des erreurs CORS
 - Retourner un JSON
+
+### 04 - Le Frontend
+- Création d'un projet node
+- Installer le package **http-server**
+- Modifier le fichier package.json pour lancer le serveur HTTP
+- lancer le projet en localhost:4200
 
 ### 05 - Mise en place du Framework Express
 - Création d'un fichier **app.js**
