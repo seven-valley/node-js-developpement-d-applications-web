@@ -46,10 +46,11 @@ $\color{blue}{\text{Projet 4}}$
 - Communiquer  avec le frontend en javaScript
 
 ### 07 - Mise en place du Framework Express
+$\color{blue}{\text{Projet 5}}$ 
 - remplacer use par **get** ou **post**
 - Récupérer un JSON
-- TP Calcul de l'IMC
-- TP Consommation Voiture 
+- $\color{green}{\text{TP Calcul de l'IMC}}$ 
+- $\color{green}{\text{TP Consommation Voiture}}$ 
 
 ### 08 - Le fonctionnement d'une API
 - Mise en place d'un bac à sable avec le principe de backend=NoBackend de FireBase
