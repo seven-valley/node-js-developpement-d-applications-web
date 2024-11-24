@@ -14,7 +14,7 @@ const mongoose = require('mongoose');
 
 Juste en dessous de votre déclaration de constante app,ajoutez la ligne suivante.  
    
-Veillez à remplacer l abase @**cluster0-pme76.mongodb.net** par la vôtre, et la chaîne <PASSWORD> par votre mot de passe utilisateur MongoDB :
+Veillez à remplacer la base @**cluster0-pme76.mongodb.net** par la vôtre, et la chaîne <PASSWORD> par votre mot de passe utilisateur MongoDB :
 
 ```js
 mongoose.connect('mongodb+srv://augure:<PASSWORD>@cluster0-pme76.mongodb.net/test?retryWrites=true&w=majority',
