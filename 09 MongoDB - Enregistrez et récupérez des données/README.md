@@ -1,3 +1,4 @@
+# 09 MongoDB -Enregistrez et récupérez des données
 ## Installez mongoose
 <img src="../img/9/mongoose.webp" width="250">
 
@@ -43,20 +44,21 @@ Création du fichier <code>Film.js</code>
 const mongoose = require('mongoose');
 
 const filmSchema = mongoose.Schema({
+  _id:{ type: String, required: false },
   title: { type: String, required: true },
   imageUrl: { type: String, required: true },
   note: { type: Number, required: true },
 });
 
-module.exports = mongoose.model('Film', thingSchema);
+module.exports = mongoose.model('Film', filmSchema);
 ```
-
+## INSERTION et Récupération des données
 # Utilisation du schémas dans app.js
 
 On vient importer le model créer ci-dessus.  
 
 ```js
-const Film = require('./models/film');
+const Film = require('./models/Film');
 ```
 
 ```js
@@ -70,7 +72,7 @@ app.post('/api/film', (req, res, next) => {
     .catch(error => res.status(400).json({ error }));
 });
 ```
-
+L'opérateur spread ... est utilisé pour faire une copie de tous les éléments de <code>req.body</code>   
 ```
 {title:req.body.title}
 ```
@@ -78,8 +80,9 @@ Le code complet de <code>app.js</code>
 ```js
 const express = require('express');
 const app = express();
-//--------
 const mongoose = require('mongoose');
+//--------
+const Film = require('./models/Film');
 //--------
 
 mongoose.connect('mongodb+srv://augure:votre_mot_de_passe@cluster0.ytemn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',

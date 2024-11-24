@@ -49,15 +49,24 @@ $\color{blue}{\text{Projet 4}}$
 $\color{blue}{\text{Projet 5}}$ 
 - remplacer use par **get** ou **post**
 - Récupérer un JSON
-- $\color{green}{\text{TP Calcul de l'IMC}}$ 
-- $\color{green}{\text{TP Consommation Voiture}}$ 
+- $\color{green}{\text{TP Calcul de l'IMC}}$ [Live preview](https://sevenvalley.fr/tp-javascript/tp2/)
+- $\color{green}{\text{TP Consommation Voiture}}$ [Live preview](https://sevenvalley.fr/tp-javascript/tpa/)
 
 ### 08 - Le fonctionnement d'une API
 - Mise en place d'un bac à sable avec le principe de backend=NoBackend de FireBase
 - Création des requêtes AJAX avec **Fetch** GET, POST , PUT , PATCH et DELETE
 - Création des requêtes AJAX avec **Axios** GET, POST, PUT, PATCH et DELETE
 
-### 09 - Installation de mongoDB
+### 09 MongoDB - Enregistrez et récupérez des données
 $\color{blue}{\text{Projet 6 MongoDB}}$ 
 - Installation
 - Prise en main de mongoose
+- Création d'une route POST pour ajouter un enregistrement 
+- Création d'une route GIE pour Répérer un tableau d'enregistrements
+
+### 10 MongoDB - Modifier et supprimer des données
+$\color{blue}{\text{Projet 6 MongoDB}}$ 
+- Création d'une route PATCH pour modifier un enregistrement 
+- Création d'une route PUT pour modifier un enregistrement 
+- Création d'une route DELETE pour supprimer un enregistrement 
+- $\color{green}{\text{TP VIP Cocktail}}$ [Live preview](https://sevenvalley.fr/tp-javascript/tpa/)
