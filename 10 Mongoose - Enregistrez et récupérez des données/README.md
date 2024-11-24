@@ -24,13 +24,13 @@ mongoose.connect('mongodb+srv://augure:<PASSWORD>@cluster0-pme76.mongodb.net/tes
   .catch(() => console.log('Connexion à MongoDB échouée !'));
 ```
 
-# les schemas de données
+## les schemas de données
 Utilisez mongoose c'est la possibilité de créer des schémas de données.  
 
 Les schemas vont permettre de respecter modèle de données.
 Cel apermet d'avoir un code plus robuste.
 
-# Création de notre premier schema
+## Création de notre premier schema
 ```
 |-- projets-node
         |-- projet-6-mongo-db
@@ -55,7 +55,7 @@ const filmSchema = mongoose.Schema({
 
 module.exports = mongoose.model('Film', filmSchema);
 ```
-## INSERTION et Récupération des données
+# Insertion des données
 # Utilisation du schémas dans app.js
 
 On vient importer le model créer ci-dessus.  

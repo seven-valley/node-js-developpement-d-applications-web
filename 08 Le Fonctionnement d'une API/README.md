@@ -19,7 +19,7 @@ Pour simuler le frontend
 https://www.postman.com/  
 <img src="../img/postman.svg" width="100">    
 
-## comment créer une documentation à notre API ?
+## Comment créer une documentation à notre API ?
 
 ### la documentation d'une API
 
