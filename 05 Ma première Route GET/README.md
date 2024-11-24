@@ -95,6 +95,6 @@ app.use('/api/stuff', (req, res, next) => {
         imageUrl: 'https://pixabay.com/photos/brad-pitt-wax-figure-actor-artist-164880/',
        
       };
-    res.status(200).json(stuff);
+    res.status(200).json(data);
   });
 ```
