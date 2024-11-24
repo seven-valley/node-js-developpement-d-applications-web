@@ -9,7 +9,7 @@
 - Installation de GIT
 
 ### 02 - Mon premier Serveur
-<span style="color:blue">Projet 1</span>
+$\color{blue}{\text{Projet 1}}$ 
 - Création d'un projet node
 - Création du fichier **package.json**
 - Importation du package **HTTP** de nodeJS
@@ -17,29 +17,30 @@
 - Lancer le serveur et tester
 
 ### 03 - Mise en place du Framework Express
-<span style="color:blue">Projet 2</span>
+$\color{blue}{\text{Projet 2}}$  
 - Création d'un fichier **app.js**
 - Création d'un middleware avec **next()**
 - Création de headers pour empêcher des erreurs CORS
 - Retourner un JSON
 
 ### 04 - Le Frontend
-<span style="color:blue">Projet 3 Brad</span>
+$\color{blue}{\text{Projet 3 Brad}}$  
 - Création d'un projet node
 - Installer le package **http-server**
 - Modifier le fichier package.json pour lancer le serveur HTTP
 - lancer le projet en localhost:4200
 
 ### 05 - Mise en place du Framework Express
-<span style="color:blue">Projet 3 Brad</span>
+$\color{blue}{\text{Projet 3 Brad}}$  
+
 - Création d'un fichier **app.js**
 - Création d'un middleware avec **next()**
 - Vérification du port
 - Gestion des erreurs
 
 ### 06 - Ma première route avec GET
-$\color{blue}{\text{some text}}$  
-<span style="color:blue">Projet 4</span>
+$\color{blue}{\text{Projet 4}}$  
+
 - Création de headers pour empêcher des erreurs CORS
 - Retourner un JSON
 - Communiquer  avec le frontend en javaScript
