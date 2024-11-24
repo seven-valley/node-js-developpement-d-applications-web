@@ -3,14 +3,11 @@
 
 
 ## LE CRUD de l'API
-------------------------------------------------------------------------------------------
 <code>GET</code> <code><b>/api/film</b></code> <code>(Affiche un tableau de films)</code>  
 <code>POST</code> <code><b>/api/film</b></code> <code>(Ajoute un Film)</code>  
 <code>PUT</code> <code><b>/api/film/:id</b></code> <code>(Modifie tout l'objet film)</code>  
 <code>PATCH</code> <code><b>/api/film/:id</b></code> <code>(Modifie un ou plusieurs attribut de l'objet film)</code>  
 <code>DELETE</code> <code><b>/api/film/:id</b></code> <code>(Efface un film)</code>  
-------------------------------------------------------------------------------------------
-
 
 ## Notre bac à sable avec Firebase
 https://firebase.google.com/   
