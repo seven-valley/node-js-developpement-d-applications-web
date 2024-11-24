@@ -58,5 +58,6 @@ $\color{blue}{\text{Projet 5}}$
 - Création des requêtes AJAX avec **Axios** GET, POST, PUT, PATCH et DELETE
 
 ### 09 - Installation de mongoDB
+$\color{blue}{\text{Projet 6 MongoDB}}$ 
 - Installation
 - Prise en main de mongoose
