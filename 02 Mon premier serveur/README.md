@@ -151,6 +151,12 @@ Pour lancer le serveur :
 ```
 nodemon server
 ```
+Pour arréter le serveur :  
+<kbd>Ctrl</kbd> +  <kbd>c</kbd>  
+Pour vider le terminal
+```
+cls
+```
 Nouveau contenu du fichier **package.json** :
 ```json
 {
