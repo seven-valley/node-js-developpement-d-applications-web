@@ -30,7 +30,7 @@ Utilisez mongoose c'est la possibilité de créer des schémas de données.
 Les schemas vont permettre de respecter modèle de données.
 Cel apermet d'avoir un code plus robuste.
 
-# Creation de notre premier schema
+# Création de notre premier schema
 ```
 |-- projets-node
         |-- projet-6-mongo-db
