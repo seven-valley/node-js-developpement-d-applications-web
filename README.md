@@ -38,6 +38,7 @@
 - Gestion des erreurs
 
 ### 06 - Ma première route avec GET
+$\color{blue}{\text{some text}}$  
 <span style="color:blue">Projet 4</span>
 - Création de headers pour empêcher des erreurs CORS
 - Retourner un JSON
