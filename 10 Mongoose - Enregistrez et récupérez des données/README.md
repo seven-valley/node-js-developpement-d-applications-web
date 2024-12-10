@@ -124,10 +124,10 @@ app.use('/api/film', (req, res, next) => {
       .catch(error => res.status(400).json({ error }));
   });
 ```
-
+Nous utilisons aussi la méthode <code>findOne()</code> dans notre modèle Mongoose pour récupérer **1 film**
 ```js
 app.get('/api/film/:id', (req, res, next) => {
-  Thing.findOne({ _id: req.params.id })
+  Film.findOne({ _id: req.params.id })
     .then(film => res.status(200).json(film))
     .catch(error => res.status(404).json({ error }));
 });
