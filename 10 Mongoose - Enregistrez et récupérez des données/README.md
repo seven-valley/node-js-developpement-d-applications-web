@@ -116,7 +116,7 @@ app.use((req, res, next) => {
 
 # Lecture des données
 Nous utilisons la méthode <code>find()</code> dans notre modèle Mongoose 
-afin de renvoyer un tableau contenant tous les <code>Film<code> dans notre base de données.
+Afin de renvoyer un tableau contenant tous les <code>Film</code> dans notre base de données.
 ```js
 app.use('/api/film', (req, res, next) => {
     Film.find()
@@ -126,7 +126,7 @@ app.use('/api/film', (req, res, next) => {
 ```
 
 ```js
-app.get('/api/filmtuff/:id', (req, res, next) => {
+app.get('/api/film/:id', (req, res, next) => {
   Thing.findOne({ _id: req.params.id })
     .then(film => res.status(200).json(film))
     .catch(error => res.status(404).json({ error }));
