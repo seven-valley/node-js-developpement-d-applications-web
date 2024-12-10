@@ -115,8 +115,10 @@ app.use((req, res, next) => {
 ```
 
 # Lecture des données
-Nous utilisons la méthode <code>find()</code> dans notre modèle Mongoose   
+Nous utilisons la méthode <code>find()</code> dans notre modèle Mongoose  
+  
 Afin de renvoyer un tableau contenant tous les <code>Film</code> dans notre base de données.
+
 ```js
 app.use('/api/film', (req, res, next) => {
     Film.find()
