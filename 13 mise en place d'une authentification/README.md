@@ -1,4 +1,4 @@
-# mise en place d'un authentification
+# Mise en place d'un authentification
 
 - Mise en place d'un systeme de cryptage 
 - pour stocker un hash du mot de passe
@@ -77,8 +77,8 @@ exports.login = (req, res, next) => {
 };
 ```
 
-# :tree: 
-Creation du router
+## :three: Création du router
+
 <code>user.js</code>
 
 ```js
@@ -91,7 +91,7 @@ router.post("/login", userCtrl.login);
 module.exports = router;
 ```
 
-# :four: 
+## :four: Intégrer le middleware
 Modifier <code>App.js</code>
 
 ```js
