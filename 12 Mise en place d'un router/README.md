@@ -19,6 +19,18 @@ module.exports = mongoose.model('Film', filmSchema);
 
 ## App.js
 ```js
+// ...
+//----------------------------------------------
+app.use(express.json()); // body parser
+//----------------------------------------------
+// ...
+
+//-----------------------------------------
+app.use('/api/film', filmRoutes);
+//-----------------------------------------
+```
+---------------------
+```js
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
