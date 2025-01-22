@@ -5,8 +5,8 @@
 
 
 ## :one: Mise en place du routers
-Création du répertoire <code>routes</code>
-Les routes deviennent : <code>films.js</code>
+Création du répertoire <code>routes</code>  
+Les routes son définies dans : <code>films.js</code>
 ```js
 const express = require("express");
 const router = express.Router();
