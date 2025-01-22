@@ -17,8 +17,29 @@ const filmSchema = mongoose.Schema({
 module.exports = mongoose.model('Film', filmSchema);
 ```
 
+
+
+
+
+# Mise en place du routers
+Création du répertoire <code>routes</code>
+Les routes deviennent : <code>films.js</code>
+```js
+const express = require("express");
+const router = express.Router();
+const filmCtrl = require("../controllers/film");
+
+router.post("/", filmCtrl.createFilm);
+router.get("/", filmCtrl.getFilm);
+router.delete("/:id", filmCtrl.deleteFilm);
+router.put("/:id", filmCtrl.modifyFilm);
+
+module.exports = router;
+```
+
 ## App.js
 ```js
+const filmRoutes = require('./routes/film');
 // ...
 //----------------------------------------------
 app.use(express.json()); // body parser
@@ -63,23 +84,6 @@ app.use('/api/film', filmRoutes);
 module.exports = app;
 ```
 
-
-
-# Mise en place du routers
-Création du répertoire <code>routes</code>
-Les routes deviennent : <code>films.js</code>
-```js
-const express = require("express");
-const router = express.Router();
-const filmCtrl = require("../controllers/film");
-
-router.post("/", filmCtrl.createFilm);
-router.get("/", filmCtrl.getFilm);
-router.delete("/:id", filmCtrl.deleteFilm);
-router.put("/:id", filmCtrl.modifyFilm);
-
-module.exports = router;
-```
 # Mise en place des controllers
 Création du répertoire <code>controllers</code>    
 <code>film.js</code>
