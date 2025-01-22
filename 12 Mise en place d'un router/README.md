@@ -1,4 +1,4 @@
-# Module 12 - Mise en place d'un router
+# Module 12 - Mise en place d'un router et des controllers
 
 
 ## Le model : Film.js
@@ -53,7 +53,7 @@ module.exports = app;
 
 
 
-# Mise en place du controller
+# Mise en place du routers
 Création du répertoire <code>routes</code>
 Les routes deviennent : <code>films.js</code>
 ```js
@@ -68,7 +68,7 @@ router.put("/:id", filmCtrl.modifyFilm);
 
 module.exports = router;
 ```
-
+# Mise en place des controllers
 Création du répertoire <code>controllers</code>    
 <code>film.js</code>
 
@@ -87,8 +87,7 @@ exports.createFilm = (req, res, next) => {
        .catch(error => res.status(400).json({ error }));
    }
 
-
-   exports.getFilm =   (req, res, next) => {
+  exports.getFilm =   (req, res, next) => {
     Film.find()
       .then(films => res.status(200).json(films))
       .catch(error => res.status(400).json({ error }));
