@@ -1,27 +1,10 @@
 # Module 12 - Mise en place d'un router et des controllers
 
 
-## Le model : Film.js
-<code>model/Film.js</code>
-
-```js
-const mongoose = require('mongoose');
-
-const filmSchema = mongoose.Schema({
-  //_id:{ type: String, required: false },
-  title: { type: String, required: true },
-  imageUrl: { type: String, required: true },
-  note: { type: Number, required: true },
-});
-
-module.exports = mongoose.model('Film', filmSchema);
-```
 
 
 
-
-
-# Mise en place du routers
+## :one: Mise en place du routers
 Création du répertoire <code>routes</code>
 Les routes deviennent : <code>films.js</code>
 ```js
@@ -37,7 +20,7 @@ router.put("/:id", filmCtrl.modifyFilm);
 module.exports = router;
 ```
 
-## App.js
+## :two: Mise à jours de app.js
 ```js
 const filmRoutes = require('./routes/film');
 // ...
@@ -84,7 +67,7 @@ app.use('/api/film', filmRoutes);
 module.exports = app;
 ```
 
-# Mise en place des controllers
+## :three: Mise en place des controllers
 Création du répertoire <code>controllers</code>    
 <code>film.js</code>
 
