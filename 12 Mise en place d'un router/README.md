@@ -1,4 +1,22 @@
 # Module 12 - Mise en place d'un router
+
+
+## Le model : Film.js
+<code>model/Film.js</code>
+
+```js
+const mongoose = require('mongoose');
+
+const filmSchema = mongoose.Schema({
+  //_id:{ type: String, required: false },
+  title: { type: String, required: true },
+  imageUrl: { type: String, required: true },
+  note: { type: Number, required: true },
+});
+
+module.exports = mongoose.model('Film', filmSchema);
+```
+
 ## App.js
 ```js
 const express = require('express');
@@ -33,58 +51,11 @@ app.use('/api/film', filmRoutes);
 module.exports = app;
 ```
 
-## le model : Film.js
-<code>model/Film.js</code>
 
-```js
-const mongoose = require('mongoose');
 
-const filmSchema = mongoose.Schema({
-  //_id:{ type: String, required: false },
-  title: { type: String, required: true },
-  imageUrl: { type: String, required: true },
-  note: { type: Number, required: true },
-});
-
-module.exports = mongoose.model('Film', filmSchema);
-```
-
-## les routes : App.js 
-Modifier <code>app.js</code>
-```js
-const express = require('express');
-const app = express();
-const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
-
-//-------------------------------------------
-const filmRoutes = require('./routes/film');
-//-------------------------------------------
-
-app.use(express.json()); // body parser
-mongoose.connect('mongodb+srv://augure:ldJKDUXNxvMsmwaZ@cluster0.ytemn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
-  { useNewUrlParser: true,
-    useUnifiedTopology: true })
-  .then(() => console.log('Connexion à MongoDB réussie !'))
-  .catch(() => console.log('Connexion à MongoDB échouée !'));
-console.log('abc');
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content, Accept, Content-Type, Authorization');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
-    next();
-  });
-
-//------------------------------------------
-app.use('/api/film', filmRoutes);
-//------------------------------------------
-
-module.exports = app;
-```
-
-# mise en place du controller
-
-les routes deviennent : <code>films.js</code>
+# Mise en place du controller
+Création du répertoire <code>routes</code>
+Les routes deviennent : <code>films.js</code>
 ```js
 const express = require("express");
 const router = express.Router();
@@ -100,6 +71,7 @@ module.exports = router;
 
 Création du répertoire <code>controllers</code>    
 <code>film.js</code>
+
 ```js
 const express = require('express');
 
