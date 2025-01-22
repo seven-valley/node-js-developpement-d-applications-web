@@ -1,4 +1,4 @@
-# module 14 Configuer le middleware
+# Module 14 Configurer le middleware
 
 Nous extrayons le token du header 
 Création du répertoire <code>middleware</code>
